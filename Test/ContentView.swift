@@ -12,10 +12,12 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-       Text("fuck you")
-        .fontWeight(.heavy)
-        .foregroundColor(.red)
-            Text("Hello, World!")
+        Text("MONDAY, AUG 20")
+            .font(.caption)
+            .foregroundColor(.secondary)
+        Text("Your Reading")
+            .font(.system(.largeTitle, design: .rounded))
+             .fontWeight(.black)
      }
     }
 }
